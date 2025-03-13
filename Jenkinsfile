@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     echo 'Compiling hello.cpp...'
-                    sh 'g++ -o hello_exec hello.cpp'
+                    sh 'g++ -o hello_exec hello2.cpp'
                 }
             }
         }
